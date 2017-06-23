@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC306C01EFDE16B00E26579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306BF1EFDE16B00E26579 /* AppDelegate.swift */; };
+		FBC306C21EFDE16B00E26579 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBC306C11EFDE16B00E26579 /* GameScene.sks */; };
+		FBC306C41EFDE16B00E26579 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBC306C31EFDE16B00E26579 /* Actions.sks */; };
+		FBC306C61EFDE16B00E26579 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306C51EFDE16B00E26579 /* GameScene.swift */; };
+		FBC306C81EFDE16B00E26579 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306C71EFDE16B00E26579 /* GameViewController.swift */; };
+		FBC306CB1EFDE16B00E26579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC306C91EFDE16B00E26579 /* Main.storyboard */; };
+		FBC306CD1EFDE16B00E26579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC306CC1EFDE16B00E26579 /* Assets.xcassets */; };
+		FBC306D01EFDE16B00E26579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC306CE1EFDE16B00E26579 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBC306BC1EFDE16B00E26579 /* MyAStarGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAStarGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC306BF1EFDE16B00E26579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC306C11EFDE16B00E26579 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FBC306C31EFDE16B00E26579 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FBC306C51EFDE16B00E26579 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FBC306C71EFDE16B00E26579 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FBC306CA1EFDE16B00E26579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC306CC1EFDE16B00E26579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC306CF1EFDE16B00E26579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC306D11EFDE16B00E26579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC306B91EFDE16B00E26579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC306B31EFDE16B00E26579 = {
+			isa = PBXGroup;
+			children = (
+				FBC306BE1EFDE16B00E26579 /* MyAStarGame */,
+				FBC306BD1EFDE16B00E26579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC306BD1EFDE16B00E26579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306BC1EFDE16B00E26579 /* MyAStarGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC306BE1EFDE16B00E26579 /* MyAStarGame */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306BF1EFDE16B00E26579 /* AppDelegate.swift */,
+				FBC306C11EFDE16B00E26579 /* GameScene.sks */,
+				FBC306C31EFDE16B00E26579 /* Actions.sks */,
+				FBC306C51EFDE16B00E26579 /* GameScene.swift */,
+				FBC306C71EFDE16B00E26579 /* GameViewController.swift */,
+				FBC306C91EFDE16B00E26579 /* Main.storyboard */,
+				FBC306CC1EFDE16B00E26579 /* Assets.xcassets */,
+				FBC306CE1EFDE16B00E26579 /* LaunchScreen.storyboard */,
+				FBC306D11EFDE16B00E26579 /* Info.plist */,
+			);
+			path = MyAStarGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC306BB1EFDE16B00E26579 /* MyAStarGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC306D41EFDE16B00E26579 /* Build configuration list for PBXNativeTarget "MyAStarGame" */;
+			buildPhases = (
+				FBC306B81EFDE16B00E26579 /* Sources */,
+				FBC306B91EFDE16B00E26579 /* Frameworks */,
+				FBC306BA1EFDE16B00E26579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAStarGame;
+			productName = MyAStarGame;
+			productReference = FBC306BC1EFDE16B00E26579 /* MyAStarGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC306B41EFDE16B00E26579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Franco Prudhomme";
+				TargetAttributes = {
+					FBC306BB1EFDE16B00E26579 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBC306B71EFDE16B00E26579 /* Build configuration list for PBXProject "MyAStarGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC306B31EFDE16B00E26579;
+			productRefGroup = FBC306BD1EFDE16B00E26579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC306BB1EFDE16B00E26579 /* MyAStarGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC306BA1EFDE16B00E26579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC306CB1EFDE16B00E26579 /* Main.storyboard in Resources */,
+				FBC306C21EFDE16B00E26579 /* GameScene.sks in Resources */,
+				FBC306CD1EFDE16B00E26579 /* Assets.xcassets in Resources */,
+				FBC306D01EFDE16B00E26579 /* LaunchScreen.storyboard in Resources */,
+				FBC306C41EFDE16B00E26579 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC306B81EFDE16B00E26579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC306C61EFDE16B00E26579 /* GameScene.swift in Sources */,
+				FBC306C81EFDE16B00E26579 /* GameViewController.swift in Sources */,
+				FBC306C01EFDE16B00E26579 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBC306C91EFDE16B00E26579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC306CA1EFDE16B00E26579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC306CE1EFDE16B00E26579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC306CF1EFDE16B00E26579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC306D21EFDE16B00E26579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC306D31EFDE16B00E26579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC306D51EFDE16B00E26579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyAStarGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.edu.itba.MyAStarGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FBC306D61EFDE16B00E26579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyAStarGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.edu.itba.MyAStarGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC306B71EFDE16B00E26579 /* Build configuration list for PBXProject "MyAStarGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC306D21EFDE16B00E26579 /* Debug */,
+				FBC306D31EFDE16B00E26579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC306D41EFDE16B00E26579 /* Build configuration list for PBXNativeTarget "MyAStarGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC306D51EFDE16B00E26579 /* Debug */,
+				FBC306D61EFDE16B00E26579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC306B41EFDE16B00E26579 /* Project object */;
+}
