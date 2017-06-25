@@ -7,27 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB6B428D1F04CFD100BA7DE0 /* EnemyStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B428C1F04CFD100BA7DE0 /* EnemyStatus.swift */; };
+		FB6B42921F04D9B800BA7DE0 /* SteeringBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B42911F04D9B800BA7DE0 /* SteeringBehavior.swift */; };
+		FB6B42941F04DBD200BA7DE0 /* PursuitSteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B42931F04DBD200BA7DE0 /* PursuitSteering.swift */; };
+		FB6B42961F04DBF100BA7DE0 /* WanderSteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B42951F04DBF100BA7DE0 /* WanderSteering.swift */; };
+		FB6B42981F04E51B00BA7DE0 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B42971F04E51B00BA7DE0 /* GameOverScene.swift */; };
 		FBC306C01EFDE16B00E26579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306BF1EFDE16B00E26579 /* AppDelegate.swift */; };
 		FBC306C21EFDE16B00E26579 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBC306C11EFDE16B00E26579 /* GameScene.sks */; };
-		FBC306C41EFDE16B00E26579 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBC306C31EFDE16B00E26579 /* Actions.sks */; };
 		FBC306C61EFDE16B00E26579 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306C51EFDE16B00E26579 /* GameScene.swift */; };
 		FBC306C81EFDE16B00E26579 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306C71EFDE16B00E26579 /* GameViewController.swift */; };
 		FBC306CB1EFDE16B00E26579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC306C91EFDE16B00E26579 /* Main.storyboard */; };
 		FBC306CD1EFDE16B00E26579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC306CC1EFDE16B00E26579 /* Assets.xcassets */; };
 		FBC306D01EFDE16B00E26579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC306CE1EFDE16B00E26579 /* LaunchScreen.storyboard */; };
+		FBC306DF1EFEB1CE00E26579 /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306DE1EFEB1CE00E26579 /* PhysicsCategory.swift */; };
+		FBC306E11EFEB3CA00E26579 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306E01EFEB3CA00E26579 /* Player.swift */; };
+		FBC306E31EFEB72000E26579 /* ObjectDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306E21EFEB72000E26579 /* ObjectDimension.swift */; };
+		FBC306E51EFEBBB300E26579 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306E41EFEBBB300E26579 /* Enemy.swift */; };
+		FBC306E71EFF443F00E26579 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306E61EFF443F00E26579 /* CGVector+Extensions.swift */; };
+		FBC306E91EFF444C00E26579 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306E81EFF444C00E26579 /* CGPoint+Extensions.swift */; };
+		FBC306EB1EFF4BA700E26579 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBC306EA1EFF4BA700E26579 /* pew-pew-lei.caf */; };
+		FBC306EE1EFF6FF500E26579 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306ED1EFF6FF500E26579 /* Tile.swift */; };
+		FBC306F01EFF700D00E26579 /* GameMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306EF1EFF700D00E26579 /* GameMap.swift */; };
+		FBC306F21F00293C00E26579 /* AStarPathfinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306F11F00293C00E26579 /* AStarPathfinder.swift */; };
+		FBC306F41F00B27500E26579 /* ShortestPathStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306F31F00B27500E26579 /* ShortestPathStep.swift */; };
+		FBC306F61F00CA3A00E26579 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC306F51F00CA3A00E26579 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB6B428C1F04CFD100BA7DE0 /* EnemyStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyStatus.swift; sourceTree = "<group>"; };
+		FB6B42911F04D9B800BA7DE0 /* SteeringBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteeringBehavior.swift; sourceTree = "<group>"; };
+		FB6B42931F04DBD200BA7DE0 /* PursuitSteering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PursuitSteering.swift; sourceTree = "<group>"; };
+		FB6B42951F04DBF100BA7DE0 /* WanderSteering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WanderSteering.swift; sourceTree = "<group>"; };
+		FB6B42971F04E51B00BA7DE0 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		FBC306BC1EFDE16B00E26579 /* MyAStarGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAStarGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC306BF1EFDE16B00E26579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC306C11EFDE16B00E26579 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FBC306C31EFDE16B00E26579 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FBC306C51EFDE16B00E26579 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FBC306C71EFDE16B00E26579 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FBC306CA1EFDE16B00E26579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBC306CC1EFDE16B00E26579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC306CF1EFDE16B00E26579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC306D11EFDE16B00E26579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC306DE1EFEB1CE00E26579 /* PhysicsCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
+		FBC306E01EFEB3CA00E26579 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FBC306E21EFEB72000E26579 /* ObjectDimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDimension.swift; sourceTree = "<group>"; };
+		FBC306E41EFEBBB300E26579 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		FBC306E61EFF443F00E26579 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		FBC306E81EFF444C00E26579 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		FBC306EA1EFF4BA700E26579 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		FBC306ED1EFF6FF500E26579 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		FBC306EF1EFF700D00E26579 /* GameMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMap.swift; sourceTree = "<group>"; };
+		FBC306F11F00293C00E26579 /* AStarPathfinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AStarPathfinder.swift; sourceTree = "<group>"; };
+		FBC306F31F00B27500E26579 /* ShortestPathStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortestPathStep.swift; sourceTree = "<group>"; };
+		FBC306F51F00CA3A00E26579 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB6B42901F04D15000BA7DE0 /* SteeringBehaviors */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B42911F04D9B800BA7DE0 /* SteeringBehavior.swift */,
+				FB6B42931F04DBD200BA7DE0 /* PursuitSteering.swift */,
+				FB6B42951F04DBF100BA7DE0 /* WanderSteering.swift */,
+			);
+			name = SteeringBehaviors;
+			sourceTree = "<group>";
+		};
 		FBC306B31EFDE16B00E26579 = {
 			isa = PBXGroup;
 			children = (
@@ -60,17 +102,95 @@
 		FBC306BE1EFDE16B00E26579 /* MyAStarGame */ = {
 			isa = PBXGroup;
 			children = (
+				FBC306EC1EFF6FE200E26579 /* AStar */,
+				FBC306DD1EFDE1EE00E26579 /* Controllers */,
+				FBC306D91EFDE1C300E26579 /* Enums */,
+				FBC306DC1EFDE1D800E26579 /* Models */,
+				FBC306DB1EFDE1CF00E26579 /* Scenes */,
+				FB6B42901F04D15000BA7DE0 /* SteeringBehaviors */,
+				FBC306DA1EFDE1CA00E26579 /* Sounds */,
+				FBC306D81EFDE1B500E26579 /* Structs */,
+				FBC306D71EFDE1A800E26579 /* Utils */,
 				FBC306BF1EFDE16B00E26579 /* AppDelegate.swift */,
-				FBC306C11EFDE16B00E26579 /* GameScene.sks */,
-				FBC306C31EFDE16B00E26579 /* Actions.sks */,
-				FBC306C51EFDE16B00E26579 /* GameScene.swift */,
-				FBC306C71EFDE16B00E26579 /* GameViewController.swift */,
 				FBC306C91EFDE16B00E26579 /* Main.storyboard */,
-				FBC306CC1EFDE16B00E26579 /* Assets.xcassets */,
 				FBC306CE1EFDE16B00E26579 /* LaunchScreen.storyboard */,
+				FBC306CC1EFDE16B00E26579 /* Assets.xcassets */,
 				FBC306D11EFDE16B00E26579 /* Info.plist */,
 			);
 			path = MyAStarGame;
+			sourceTree = "<group>";
+		};
+		FBC306D71EFDE1A800E26579 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306E61EFF443F00E26579 /* CGVector+Extensions.swift */,
+				FBC306E81EFF444C00E26579 /* CGPoint+Extensions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		FBC306D81EFDE1B500E26579 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306DE1EFEB1CE00E26579 /* PhysicsCategory.swift */,
+				FBC306E21EFEB72000E26579 /* ObjectDimension.swift */,
+			);
+			name = Structs;
+			sourceTree = "<group>";
+		};
+		FBC306D91EFDE1C300E26579 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306F51F00CA3A00E26579 /* Status.swift */,
+				FB6B428C1F04CFD100BA7DE0 /* EnemyStatus.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		FBC306DA1EFDE1CA00E26579 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306EA1EFF4BA700E26579 /* pew-pew-lei.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		FBC306DB1EFDE1CF00E26579 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306C11EFDE16B00E26579 /* GameScene.sks */,
+				FBC306C51EFDE16B00E26579 /* GameScene.swift */,
+				FB6B42971F04E51B00BA7DE0 /* GameOverScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		FBC306DC1EFDE1D800E26579 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306E01EFEB3CA00E26579 /* Player.swift */,
+				FBC306E41EFEBBB300E26579 /* Enemy.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FBC306DD1EFDE1EE00E26579 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306C71EFDE16B00E26579 /* GameViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FBC306EC1EFF6FE200E26579 /* AStar */ = {
+			isa = PBXGroup;
+			children = (
+				FBC306ED1EFF6FF500E26579 /* Tile.swift */,
+				FBC306EF1EFF700D00E26579 /* GameMap.swift */,
+				FBC306F11F00293C00E26579 /* AStarPathfinder.swift */,
+				FBC306F31F00B27500E26579 /* ShortestPathStep.swift */,
+			);
+			name = AStar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +255,8 @@
 				FBC306CB1EFDE16B00E26579 /* Main.storyboard in Resources */,
 				FBC306C21EFDE16B00E26579 /* GameScene.sks in Resources */,
 				FBC306CD1EFDE16B00E26579 /* Assets.xcassets in Resources */,
+				FBC306EB1EFF4BA700E26579 /* pew-pew-lei.caf in Resources */,
 				FBC306D01EFDE16B00E26579 /* LaunchScreen.storyboard in Resources */,
-				FBC306C41EFDE16B00E26579 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +267,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC306E51EFEBBB300E26579 /* Enemy.swift in Sources */,
 				FBC306C61EFDE16B00E26579 /* GameScene.swift in Sources */,
+				FB6B42941F04DBD200BA7DE0 /* PursuitSteering.swift in Sources */,
+				FB6B42921F04D9B800BA7DE0 /* SteeringBehavior.swift in Sources */,
+				FBC306F41F00B27500E26579 /* ShortestPathStep.swift in Sources */,
+				FBC306DF1EFEB1CE00E26579 /* PhysicsCategory.swift in Sources */,
 				FBC306C81EFDE16B00E26579 /* GameViewController.swift in Sources */,
+				FB6B42961F04DBF100BA7DE0 /* WanderSteering.swift in Sources */,
+				FBC306E91EFF444C00E26579 /* CGPoint+Extensions.swift in Sources */,
+				FB6B42981F04E51B00BA7DE0 /* GameOverScene.swift in Sources */,
+				FBC306F21F00293C00E26579 /* AStarPathfinder.swift in Sources */,
+				FBC306E71EFF443F00E26579 /* CGVector+Extensions.swift in Sources */,
+				FBC306E31EFEB72000E26579 /* ObjectDimension.swift in Sources */,
+				FBC306F61F00CA3A00E26579 /* Status.swift in Sources */,
+				FBC306EE1EFF6FF500E26579 /* Tile.swift in Sources */,
+				FB6B428D1F04CFD100BA7DE0 /* EnemyStatus.swift in Sources */,
+				FBC306E11EFEB3CA00E26579 /* Player.swift in Sources */,
 				FBC306C01EFDE16B00E26579 /* AppDelegate.swift in Sources */,
+				FBC306F01EFF700D00E26579 /* GameMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +447,7 @@
 				FBC306D61EFDE16B00E26579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
